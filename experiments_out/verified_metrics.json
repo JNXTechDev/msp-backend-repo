@@ -1,0 +1,73 @@
+{
+  "timestamp": "20251123T185309Z",
+  "dataset": "final_dataset.csv",
+  "train_size": 31323,
+  "test_size": 7831,
+  "baseline": {
+    "accuracy": 0.9946367002937045,
+    "precision": 0.9945142857142857,
+    "recall": 0.995880064087892,
+    "f1_score": 0.9951967063129002,
+    "classification_report": {
+      "0": {
+        "precision": 0.9947916666666666,
+        "recall": 0.9930675909878682,
+        "f1-score": 0.9939288811795316,
+        "support": 3462.0
+      },
+      "1": {
+        "precision": 0.9945142857142857,
+        "recall": 0.995880064087892,
+        "f1-score": 0.9951967063129002,
+        "support": 4369.0
+      },
+      "accuracy": 0.9946367002937045,
+      "macro avg": {
+        "precision": 0.9946529761904761,
+        "recall": 0.9944738275378802,
+        "f1-score": 0.9945627937462159,
+        "support": 7831.0
+      },
+      "weighted avg": {
+        "precision": 0.994636912819016,
+        "recall": 0.9946367002937045,
+        "f1-score": 0.9946362145989784,
+        "support": 7831.0
+      }
+    }
+  },
+  "enhanced": {
+    "accuracy": 0.9946367002937045,
+    "precision": 0.9945142857142857,
+    "recall": 0.995880064087892,
+    "f1_score": 0.9951967063129002,
+    "classification_report": {
+      "0": {
+        "precision": 0.9947916666666666,
+        "recall": 0.9930675909878682,
+        "f1-score": 0.9939288811795316,
+        "support": 3462.0
+      },
+      "1": {
+        "precision": 0.9945142857142857,
+        "recall": 0.995880064087892,
+        "f1-score": 0.9951967063129002,
+        "support": 4369.0
+      },
+      "accuracy": 0.9946367002937045,
+      "macro avg": {
+        "precision": 0.9946529761904761,
+        "recall": 0.9944738275378802,
+        "f1-score": 0.9945627937462159,
+        "support": 7831.0
+      },
+      "weighted avg": {
+        "precision": 0.994636912819016,
+        "recall": 0.9946367002937045,
+        "f1-score": 0.9946362145989784,
+        "support": 7831.0
+      }
+    }
+  },
+  "note": "Metrics computed immediately after training on test split. Verified by re-evaluating saved pipelines."
+}
